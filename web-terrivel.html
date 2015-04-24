@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="web-terrivel.css"/>
+	</head>
+	<body>
+		<div id="test_GET">
+			<h4> Customer </h4>
+			<form action="http://terrivel.herokuapp.com/monster" method="GET">
+				<span>
+					<label for="nome">Nome:</label><input name="nome">
+				</span>
+				<span>
+					<label for="num_pedras:">Numero de Pedras:</label> <input name="num" min="0" step="1" type="number" style="display:table-cell">
+				</span>
+				<span>
+					<label for="tam_pedras:">Tamanho das Pedras:</label> <input name="tam" min="1" max="7" step="1" type="range" value="3" style="display:table-cell">
+				</span>
+				<span>
+					<label for="color1:">Cor do Ceu 1:</label> <input name="color1" type="color">
+				</span>
+				<span>
+					<label for="color2:">Cor do Ceu 2:</label> <input name="color2" type="color">
+				</span>
+				<span>
+					<label for="type_pedras:">Tipo de Pedra:</label>
+						<select name="sabor" id="sabor">
+							<option value="marroada">Marroada</option>
+							<option value="ametist">Ametista</option>
+							<option value="topazio">Topazio</option>
+							<option value="espinela">Espinela</option>
+						</select>
+				</span>
+				<span>
+					<label for="sort_pedras:">Pedras Sortidas:</label> <input name="sort" value="sim" type="checkbox"><br>
+				</span>
+				<input class="botao" value="Enviar" type="submit">
+			</form>
+		</div>
+		
+		<div id="test_POST">
+			<h4> Customer </h4>
+			<form action="http://terrivel.herokuapp.com/monster" method="POST">
+				<span>
+					<label for="nome">Nome:</label><input name="nome">
+				</span>
+				<span>
+					<label for="num_pedras:">Numero de Pedras:</label> <input name="num" min="0" step="1" type="number" style="display:table-cell">
+				</span>
+				<span>
+					<label for="tam_pedras:">Tamanho das Pedras:</label> <input name="tam" min="1" max="7" step="1" type="range" value="3" style="display:table-cell">
+				</span>
+				<span>
+					<label for="color1:">Cor do Ceu 1:</label> <input name="color1" type="color">
+				</span>
+				<span>
+					<label for="color2:">Cor do Ceu 2:</label> <input name="color2" type="color">
+				</span>
+				<span>
+					<label for="type_pedras:">Tipo de Pedra:</label>
+						<select name="sabor" id="sabor">
+							<option value="marroada">Marroada</option>
+							<option value="ametist">Ametista</option>
+							<option value="topazio">Topazio</option>
+							<option value="espinela">Espinela</option>
+						</select>
+				</span>
+				<span>
+					<label for="sort_pedras:">Pedras Sortidas:</label> <input name="sort" value="sim" type="checkbox"><br>
+				</span>
+				<input class="botao" value="Enviar" type="submit">
+			</form>
+		</div>
+	</body>
+</html>
