@@ -5,31 +5,19 @@ div{
 	padding-bottom: 10px;
 	margin: 20px;
 }
-
 .botao{
 	text-align: center;
 	padding: 5px;
 }
-
 form{
 	display:table;
 }
-
-/*form label:after{
-	display: table-row;
-}*/
 form span{
 	display: table-row;
 }
-
 form label{
 	display:table-cell;
 }
-
 form input{
 	display:table-cell;
 }
-
-
-
-
